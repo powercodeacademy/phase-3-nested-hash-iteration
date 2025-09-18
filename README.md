@@ -221,10 +221,10 @@ contacts.each do |person, contact_details_hash|
 end
 ```
 
-We can enter the Pry session in one of two ways: by running `learn test` or by
-running `ruby contacts.rb`. We'll use `learn test`.
+We can enter the Pry session in one of two ways: by running `bin/rspec` or by
+running `ruby contacts.rb`. We'll use `bin/rspec`.
 
-Run `learn test` in the terminal and, at the Pry prompt, check that our defined
+Run `bin/rspec` in the terminal and, at the Pry prompt, check that our defined
 variables (`person` and `contact_details_hash`) match our expectations.
 
 ```rb
@@ -262,7 +262,7 @@ def remove_strawberry(contacts)
 end
 ```
 
-Again, let's jump into our `binding.pry` using `learn test`. We can verify that
+Again, let's jump into our `binding.pry` using `bin/rspec`. We can verify that
 we've found the record for Freddie Mercury by checking the values of our
 variables:
 
